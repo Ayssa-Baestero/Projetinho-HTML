@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="dados.php" method="get" autocomplete="on"></form>
+    <fieldset>
+        <legend>Dados do cliente</legend>
+<br>
+        <label for="ident">Nome</label><br>
+        <input type="text" name="ident" id="ident"><title>Nome</title><p></p>
+        <label for="ident">Endereço</label><br>
+        <input type="text" name="ender" id="ender"><p></p>
+<br>
+<p>Selecione seu gênero</p>
+        <input type="radio" name="gender" id="masc">
+        <label for="gender">Masculino</label><p></p>
+        <input type="radio" name="gender" id="femin">
+        <label for="gender">Feminino</label><p></p>
+        <input type="radio" name="gender" id="Outros">
+        <label for="gender">Outros</label><p></p>
+<br>
+        <P>Selecione seu veículo</P>
+
+        <input type="checkbox" name="bike" id="bike">
+        <label for="bike">Bicicleta</label><p></p>
+        <input type="checkbox" name="moto" id="moto">
+        <label for="moto">Motocicleta</label><p></p>
+        <input type="checkbox" name="car" id="car">
+        <label for="car">Carro</label><p></p>
+<br>
+        <label for="mail">Digite um email válido</label><p></p>
+        <input type="email" name="mail" id="mail"> 
+        <p></p>
+        <br>
+
+        <label for="pin">Senha</label><br>
+        <input type="text" name="pin" id="pin" maxlength="3">
+        <p></p>
+<br>
+
+
+<label for="browser2">Navegador:</label><p></p>
+<input id="browser"list="browsers2"name="browser">
+<datalistid="browsers">
+<optionvalue="MicrosoftEdge">
+<optionvalue="Firefox">
+<optionvalue="Chrome">
+<optionvalue="Opera">
+<optionvalue="Safari">
+</datalist>
+
+<p></p>
+<br>
+
+<textarea name="nhew" id="nhew" cols="30" rows="10"></textarea>
+
+
+<br>
+<p></p>
+<input type="submit" value="Enviar">
+
+
+
+
+</fieldset>
+    </form>
+
+</body>
+</html>
